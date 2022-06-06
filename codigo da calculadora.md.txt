@@ -1,0 +1,18 @@
+| from time import sleep |                                                              |
+| ---------------------- | :----------------------------------------------------------- |
+|                        |                                                              |
+|                        |                                                              |
+|                        | def menuCalculadora():                                       |
+|                        | """                                                          |
+|                        | Esta função imprime na tela um menu de uma calculadora simples. |
+|                        | :return:                                                     |
+|                        | """                                                          |
+|                        | funcoes = ['ADIÇÃO', 'SUBTRAÇÃO', 'MULTIPLICAÇÃO', 'DIVISÃO [N1/N2]', 'SAIR DA CALCULADORA'] |
+|                        | print('-' * 32)                                              |
+|                        | print(f"{'CALCULADORA PYTHON':^30}")                         |
+|                        | print('-' * 32)                                              |
+|                        | for index, item in enumerate(funcoes):                       |
+|                        | print(f"{f'[{index+1}]':>9} {item}")                         |
+|                        | print('-' * 32)                                              |
+
+##Mini projeto calculadora
